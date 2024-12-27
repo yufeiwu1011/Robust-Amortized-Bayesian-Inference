@@ -1,0 +1,19 @@
+
+model {
+
+  #likelihood function
+  for (t in 1:nTrials) { 
+  y[t] ~ dwiener(alpha, tau, beta, delta)
+  }
+  
+  #priors
+  
+  alpha ~ dnorm(0, 1e-3)
+  beta = 0.5
+  tau ~ dnorm(0, 1e-3)T(0.01,3)
+  delta ~ dnorm(0,1e-3)
+  
+}
+
+
+
