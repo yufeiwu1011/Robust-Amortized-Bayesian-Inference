@@ -43,7 +43,7 @@ This folder contains the R code and data for performing the multivariate random 
 ## [2 toy example](2%toy%example)
 
 ### [jupyter notebook](2%toy%example/notebook)
-- [toy example](2 toy example/notebook/toy example.ipynb): code for sections with the toy example, i.e., the training, testing, and costs for both the standard (non-robust) and robust $\mu$ estimators.
+- [toy example](2%toy%example/notebook/toy%example.ipynb): code for sections with the toy example, i.e., the training, testing, and costs for both the standard (non-robust) and robust $\mu$ estimators.
 
 ### [networks](2%toy%example/networks)
 - stored networks for ABI inference in the toy example sections for reproducibility
@@ -67,12 +67,12 @@ This folder contains the R code and data for performing the multivariate random 
 - [4 real data problem](4%real%data%problem/notebook/4%real%data%problem.ipynb): code for fitting the <em>rr98<em> dataset with the standard and robust ddm estimators
 - [robust ddm estimator training](4%real%data%problem/notebook/robust%ddm%estimator%training.ipynb): code for training the robust DDM estimator (GPU) 
 - [standard ddm estimator training](4%real%data%problem/notebook/standard%ddm%estimator%training.ipynb): code for training the standard DDM estimator (GPU) 
-- 
+
 ### [networks](4%real%data%problem/network)
 - stored networks for ABI inference in the real data example section for reproducibility
 
 ### [R related files](4%real%data%problem/R%related%files)
-- contains the <em>rr98<em> dataset.
+- contains code to acquire the <em>rr98<em> dataset and the reorganized dataset to input to BayesFlow
 
 ## License
 
